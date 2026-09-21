@@ -1,0 +1,3 @@
+const burger=document.querySelector('.burger'),nav=document.querySelector('nav');burger?.addEventListener('click',()=>nav.classList.toggle('open'));document.querySelectorAll('nav a').forEach(a=>a.addEventListener('click',()=>nav.classList.remove('open')));
+const range=document.getElementById('range'),before=document.querySelector('.before'),line=document.querySelector('.line');function sync(){if(!range)return;before.style.width=range.value+'%';line.style.left=range.value+'%'}range?.addEventListener('input',sync);sync();
+document.getElementById('form')?.addEventListener('submit',e=>{e.preventDefault();document.getElementById('msg').textContent='Спасибо! Это демонстрационная форма. Подключите WhatsApp, Telegram или сервис форм для реальных заявок.';e.target.reset()});

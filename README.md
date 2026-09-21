@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="ru"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ROYAL DETAIL — Premium Detailing</title>
+<meta name="description" content="ROYAL DETAIL — премиальный детейлинг автомобилей">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"></head>
+<body>
+<header><div class="wrap nav"><a class="logo" href="#home">ROYAL<small>DETAILING STUDIO</small></a>
+<button class="burger">☰</button><nav><a href="#services">Услуги</a><a href="#studio">О студии</a><a href="#works">Работы</a><a href="#process">Процесс</a><a href="#contact">Контакты</a></nav>
+<a class="phone" href="tel:+79027221523">8 902 722-15-23</a></div></header>
+<main id="home">
+<section class="hero"><div class="hero-bg"></div><div class="mask"></div><div class="wrap hero-in"><div><p class="eyebrow">PREMIUM CAR CARE</p>
+<h1>Автомобиль, <span class="accent">достойный внимания.</span></h1><p class="lead">Премиальный детейлинг без компромиссов: восстановление блеска, защита кузова и идеальная чистота интерьера.</p>
+<div class="buttons"><a class="btn aqua" href="#contact">Записаться</a><a class="btn outline" href="#services">Смотреть услуги</a></div></div>
+<div class="hero-note"><b>01</b>Работаем с автомобилем<br>как с произведением искусства.</div></div>
+<div class="hero-foot"><div class="wrap"><span>ROYAL DETAIL · PREMIUM STUDIO</span><span>SCROLL ↓</span></div></div></section>
+
+<section class="intro"><div class="wrap grid2"><div><p class="eyebrow dark">ROYAL PHILOSOPHY</p><h2>Красота начинается <span class="accent">с деталей.</span></h2></div><div class="introtext"><p>Студия для тех, кто ценит качество работы и эстетику премиального сервиса. Подбираем процедуры под автомобиль, а не продаём лишние услуги.</p><a class="link" href="#studio">Узнать больше →</a></div></div></section>
+
+<section class="section" id="services"><div class="wrap"><div class="title"><div><p class="eyebrow">НАШИ УСЛУГИ</p><h2>Уход, который <span class="accent">видно.</span></h2></div><p>От восстановления блеска до долговременной защиты кузова и глубокого ухода за салоном.</p></div>
+<div class="services">
+<article class="card big"><div class="pic p1"></div><div class="body"><div class="meta"><span>01</span><span>от 45 000 ₽</span></div><h3>Керамическая<br>защита</h3><p>Глубина цвета, гидрофобный эффект и защита лакокрасочного покрытия.</p><a href="#contact">Записаться →</a></div></article>
+<article class="card"><div class="pic p2"></div><div class="body"><div class="meta"><span>02</span><span>от 18 000 ₽</span></div><h3>Полировка<br>кузова</h3><p>Возвращаем лаку гладкость, блеск и насыщенность цвета.</p><a href="#contact">Записаться →</a></div></article>
+<article class="card"><div class="pic p3"></div><div class="body"><div class="meta"><span>03</span><span>от 12 000 ₽</span></div><h3>Детейлинг<br>интерьера</h3><p>Глубокая очистка, уход за кожей и каждой зоной салона.</p><a href="#contact">Записаться →</a></div></article>
+<article class="card"><div class="pic p4"></div><div class="body"><div class="meta"><span>04</span><span>от 35 000 ₽</span></div><h3>Защитная<br>плёнка</h3><p>Прозрачная защита зон риска от сколов и царапин.</p><a href="#contact">Записаться →</a></div></article>
+</div></div></section>
+
+<section class="studio" id="studio"><div class="wrap grid2 studio-grid"><div class="studio-photo"><span>ROYAL<br>STANDARD</span></div><div class="studio-text"><p class="eyebrow">О СТУДИИ</p><h2>Премиальный <span class="accent">стандарт</span> в каждой детали.</h2><p>Перед работой внимательно осматриваем автомобиль и составляем понятный план. Никаких лишних процедур — только то, что действительно нужно.</p>
+<ul><li>Профессиональная химия и оборудование</li><li>Индивидуальный подбор комплекса</li><li>Контроль качества на каждом этапе</li><li>Рекомендации по дальнейшему уходу</li></ul></div></div></section>
+
+<section class="light section" id="works"><div class="wrap"><div class="title"><div><p class="eyebrow burg">PORTFOLIO</p><h2>Результат <span class="accent">говорит сам.</span></h2></div><p>Наши работы и автомобили, которые прошли уход в ROYAL DETAIL.</p></div>
+<div class="gallery">
+<img class="g1" src="images/bmw-front.jpeg" alt="BMW — работа ROYAL DETAIL">
+<img src="images/bmw-pink.jpeg" alt="BMW — работа ROYAL DETAIL">
+<img src="images/porsche.jpeg" alt="Porsche — работа ROYAL DETAIL">
+<img class="wide" src="images/audi-studio.jpeg" alt="Audi — работа ROYAL DETAIL">
+</div></div></section>
+
+<section class="section compare-section"><div class="wrap center"><p class="eyebrow">ДО / ПОСЛЕ</p><h2>Когда разница <span class="accent">очевидна.</span></h2><div class="compare">
+<img src="images/after-interior.jpeg" alt="Салон после детейлинга">
+<div class="before"><img src="images/before-interior.jpeg" alt="Салон до детейлинга"></div>
+<input id="range" type="range" min="0" max="100" value="50">
+<i class="line"></i><b class="lab l">ДО</b><b class="lab r">ПОСЛЕ</b>
+</div><input id="range" type="range" min="0" max="100" value="50"><i class="line"></i><b class="lab l">ДО</b><b class="lab r">ПОСЛЕ</b></div></div></section>
+
+<section class="section process" id="process"><div class="wrap center"><p class="eyebrow">КАК МЫ РАБОТАЕМ</p><h2>Четыре шага к <span class="accent">идеалу.</span></h2><div class="steps"><div><b>01</b><h3>Заявка</h3><p>Вы рассказываете об автомобиле и выбираете время.</p></div><div><b>02</b><h3>Осмотр</h3><p>Оцениваем состояние и согласовываем комплекс.</p></div><div><b>03</b><h3>Работа</h3><p>Выполняем процедуры с контролем качества.</p></div><div><b>04</b><h3>Выдача</h3><p>Показываем результат и даём рекомендации.</p></div></div></div></section>
+
+<section class="cta" id="contact"><div class="wrap grid2"><div><p class="eyebrow">ЗАПИСЬ</p><h2>Подарите автомобилю <span class="accent">ROYAL-уход.</span></h2><p>Оставьте контакты — мы свяжемся с вами и подберём подходящий комплекс.</p><div class="contacts"><a href="tel:+79027221523">8 902 722-15-23</a><span>Москва · район Раменки</span></div></div>
+<form id="form"><label>Имя<input required name="name" placeholder="Ваше имя"></label><label>Телефон<input required name="phone" placeholder="+7 ___ ___-__-__"></label><label>Услуга<select name="service"><option>Выберите услугу</option><option>Керамическая защита</option><option>Полировка кузова</option><option>Детейлинг интерьера</option><option>Защитная плёнка</option></select></label><button class="btn aqua">Отправить заявку</button><small id="msg"></small></form></div></section>
+</main><footer><div class="wrap foot"><a class="logo" href="#home">ROYAL<small>DETAILING STUDIO</small></a><span>© 2026 ROYAL DETAIL</span><a href="#home">Наверх ↑</a></div></footer><script src="script.js"></script></body></html>
